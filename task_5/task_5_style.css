@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* border: 2px solid blue; */
+  padding: 0px 29px;
+}
+
+#section1 {
+  /* flex: 1; */
+  width: 45%;
+  /* border: 2px solid goldenrod; */
+  padding: 39px 0px 32px 32px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+#section1 #navbar {
+  display: flex;
+}
+#section1 #navbar #logos,
+#section1 #navbar #links {
+  /* border: 2px solid blue; */
+  flex: 1;
+  display: flex;
+}
+#section1 #navbar #logos {
+  align-items: center;
+}
+#section1 #navbar #logos img {
+  margin-right: 10px;
+  /* border: 2px solid gold; */
+}
+#section1 #navbar #links {
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 124px;
+}
+#section1 #navbar #links #links-top ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  /* border: 2px solid coral; */
+}
+#section1 #navbar #links #links-top ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid coral; */
+}
+#section1 #navbar #links #links-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  /* border: 2px solid coral; */
+}
+#section1 #navbar #links #links-bottom .btn {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  padding: 2px 9px;
+  cursor: pointer;
+}
+#section1 #navbar #links #links-bottom #login-btn {
+  background-color: #fc703d;
+  color: #fff;
+}
+
+#section1 #booking-container {
+  display: flex;
+  flex-direction: column;
+  padding: 59px 0;
+  /* border: 2px solid blue; */
+}
+#section1 #booking-container #title-slogans {
+  display: flex;
+  flex-direction: column;
+}
+#section1 #booking-container #title-slogans #title {
+  font-size: 29px;
+}
+#section1 #booking-container #title-slogans #slogan-container {
+  margin: 6px 0;
+  font-size: 18px;
+}
+#section1 #booking-container #title-slogans #slogan-container #slogan1 {
+  color: rgb(2, 184, 2);
+  margin-right: 15px;
+}
+#section1 #booking-container #title-slogans #slogan-container #slogan2 {
+  color: coral;
+  margin-right: 15px;
+}
+#section1 #booking-container #title-slogans #slogan-container #slogan3 {
+  color: #03045e;
+}
+
+#section1 #booking-container #offerings {
+  display: flex;
+  gap: 8px;
+  margin: 26px 0 35px 0;
+  /* border: 2px solid goldenrod; */
+}
+#section1 #booking-container #offerings p {
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 6px;
+  cursor: pointer;
+}
+#section1 #booking-container #offerings p:first-child {
+  background-color: #03045e;
+  color: white;
+}
+
+#section1 #booking-container #booking-date-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* gap: 19px; */
+}
+#section1 #booking-container #booking-date-container #booking,
+#section1 #booking-container #booking-date-container #date {
+  display: flex;
+  /* border: 2px solid goldenrod; */
+  /* justify-content: center; */
+  margin-top: 12px;
+  /* border: 2px solid coral; */
+  /* width: 600.79px; */
+}
+#section1 #booking-container #booking-date-container #booking > div,
+#section1 #booking-container #booking-date-container #date > div {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid #03045e; */
+  gap: 15px;
+  /* flex: 1; */
+}
+#section1 #booking-container #booking-date-container #booking #booking-from,
+#section1 #booking-container #booking-date-container #date #date-journey {
+  border-top: 1px solid rgba(0, 0, 0, 0.308);
+  border-left: 1px solid rgba(0, 0, 0, 0.308);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+  padding: 6px 39px;
+}
+#section1 #booking-container #booking-date-container #booking #up-down-img,
+#section1 #booking-container #booking-date-container #date #coach-type {
+  border-top: 1px solid rgba(0, 0, 0, 0.308);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+  padding: 6px 20px;
+}
+#section1 #booking-container #booking-date-container #booking #up-down-img {
+  width: 111px;
+  display: flex;
+  justify-content: center;
+}
+#section1 #booking-container #booking-date-container #booking #booking-to,
+#section1 #booking-container #booking-date-container #date #seat-type {
+  border-top: 1px solid rgba(0, 0, 0, 0.308);
+  border-right: 1px solid rgba(0, 0, 0, 0.308);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+  padding: 6px 39px;
+}
+#section1 #booking-container #booking-date-container .top {
+  font-size: 10px;
+  color: grey;
+}
+#section1 #booking-container #booking-date-container .main {
+  white-space: nowrap;
+  font-weight: bolder;
+}
+#section1 #booking-container #booking-date-container .bottom {
+  font-size: 10px;
+  color: gray;
+  white-space: nowrap;
+}
+
+#section1 #booking-container #booking-date-container #search-trains {
+  /* border: 2px solid #03045e; */
+  display: flex;
+  /* justify-content: center; */
+}
+#section1 #booking-container #booking-date-container #search-trains button {
+  width: 509.77px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  background-color: rgb(0, 199, 0);
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+#section2 {
+  /* flex: 1; */
+  width: 55%;
+  background-position: center;
+}
+#section2 .img {
+  background-position: right;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+#section2 #img1 {
+  background-image: url("./task_5_resource/image1.jpg");
+}
+
+#section2 #img2 {
+  background-image: url("./task_5_resource/image2.webp");
+}
+
+.circle-border {
+  border-radius: 50%;
+  border: 2px solid #bab7b69f;
+  padding: 9px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

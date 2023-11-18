@@ -1,0 +1,23 @@
+1. justify-content: 
+*) Aligns items horizontally for rows, vertically for columns.
+*) Adjusts spacing between items, distributing them along the main axis.
+Different values of justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly.
+
+2. align-items: 
+*) Aligns items vertically for rows, horizontally for columns.
+Different values of align-items: flex-start, flex-end, center, baseline, stretch.
+
+3. gap: 
+*) Sets space between items in a flex container, applying to both rows and columns.
+*) Defines the gap or spacing between adjacent items.
+Example: gap: 7px; creates a 7-pixel gap between items.
+
+4. flex-direction: 
+*) Specifies the direction for the items in a flex container.
+*) Controls if items flow in rows (default), columns, rows-reverse, or columns-reverse.
+Different values of flex-direction: row, row-reverse, column, column-reverse.
+
+5.flex-wrap: 
+*) Determines whether flex items should wrap into multiple lines.
+*) Decides if items should wrap onto a new line when space is insufficient.
+Different values of flex-wrap: nowrap (default), wrap, wrap-reverse.
